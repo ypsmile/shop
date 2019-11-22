@@ -19,7 +19,7 @@ import java.util.Date;
 public class GoodsServiceImpl implements IGoodsService {
 
     @Autowired
-    private TradeGoodsMapper goodsMapper;
+    private TradeGoodsMapper goodsMapper;//运行时动态生成bean,编译器会报错
 
     @Autowired
     private TradeGoodsNumberLogMapper goodsNumberLogMapper;
